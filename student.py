@@ -57,6 +57,9 @@ while True:
         print("Inserted Successfully")
 
 
+
+
+
     elif choice == 2:
         result = connection.execute("SELECT * FROM STUDENTDATA ORDER BY ROLL_NUMBER")
         table = PrettyTable(
